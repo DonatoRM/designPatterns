@@ -4,9 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6457bcab-2b3b-4e87-b6ab-6d637f7e6a1a" name="Changes" comment="feat: adapter design pattern 3">
-      <change afterPath="$PROJECT_DIR$/src/main/java/adapter/README" afterDir="false" />
+    <list default="true" id="6457bcab-2b3b-4e87-b6ab-6d637f7e6a1a" name="Changes" comment="feat: adapter design pattern 4">
+      <change afterPath="$PROJECT_DIR$/src/main/java/structural/bridge/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/structural/bridge/models/ControlRemoto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/structural/bridge/models/ControlRemotoRadio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/structural/bridge/models/ControlRemotoTV.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/structural/bridge/models/Dispositivo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/structural/bridge/models/Radio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/structural/bridge/models/Televisor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/adapter/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/structural/adapter/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/adapter/README" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/structural/adapter/README" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/adapter/adapters/CarAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/structural/adapter/adapters/CarAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/adapter/api/Drivable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/structural/adapter/api/Drivable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/adapter/model/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/structural/adapter/model/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/adapter/model/Cart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/structural/adapter/model/Cart.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +54,9 @@
     &quot;accountId&quot;: &quot;45c06561-a61c-4342-a9c2-4e95d4503ff5&quot;
   }
 }</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
 }</component>
@@ -64,6 +79,7 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -84,7 +100,9 @@
       <option name="presentableId" value="Default" />
       <updated>1730895901867</updated>
       <workItem from="1730895903025" duration="2303000" />
-      <workItem from="1730904468118" duration="516000" />
+      <workItem from="1730904468118" duration="9592000" />
+      <workItem from="1730919215817" duration="1319000" />
+      <workItem from="1730920557386" duration="215000" />
     </task>
     <task id="LOCAL-00001" summary="feat: adapter design pattern">
       <option name="closed" value="true" />
@@ -110,7 +128,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730897979342</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="feat: adapter design pattern 4">
+      <option name="closed" value="true" />
+      <created>1730905020730</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1730905020730</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -131,6 +157,7 @@
     <MESSAGE value="feat: adapter design pattern" />
     <MESSAGE value="feat: adapter design pattern 2" />
     <MESSAGE value="feat: adapter design pattern 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: adapter design pattern 3" />
+    <MESSAGE value="feat: adapter design pattern 4" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: adapter design pattern 4" />
   </component>
 </project>

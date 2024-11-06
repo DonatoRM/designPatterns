@@ -1,0 +1,12 @@
+-------------------------------------------------
+PATRÓN DE DISEÑO ESTRUCTURAL BRIDGE O HANDLE/BODY
+-------------------------------------------------
+Este patrón se utiliza cuando tenemos la necesidad de desacoplar totalmente un componente que está agregado a una clase.
+Esto lo realizamos de la siguiente forma:
+1.- Creamos una Interface en donde fijaremos todos los métodos que serán comunes en cada una de las implementaciones de
+cada componente (que luego podremos desarrollar sin tener que modificar los resultados en el resto del programa.
+2.- Creamos por separado cada una de las implementaciones de los componentes.
+3.- Creamos una clase abstracta que tiene un atributo del tipo de la interface, y se asignará el valor mediante el
+constructor. Además llevará la declaración de los métodos abstractos necesarios para llamar a los métodos del
+componente de la interface.
+4.- Creamos las clases hijas de la clase abstracta padre, y le damos la implementación necesaria.

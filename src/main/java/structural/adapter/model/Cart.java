@@ -1,4 +1,4 @@
-package adapter.model;
+package structural.adapter.model;
 
 public class Cart {
     public void moving() {

@@ -1,4 +1,4 @@
-package adapter.api;
+package structural.adapter.api;
 
 public interface Drivable {
     void accelerate();

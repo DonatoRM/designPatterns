@@ -1,6 +1,6 @@
-package adapter.model;
+package structural.adapter.model;
 
-import adapter.api.Drivable;
+import structural.adapter.api.Drivable;
 
 public class Car implements Drivable {
     @Override

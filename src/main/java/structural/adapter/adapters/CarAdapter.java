@@ -1,7 +1,7 @@
-package adapter.adapters;
+package structural.adapter.adapters;
 
-import adapter.api.Drivable;
-import adapter.model.Cart;
+import structural.adapter.api.Drivable;
+import structural.adapter.model.Cart;
 
 public class CarAdapter implements Drivable {
     private final Cart cart;

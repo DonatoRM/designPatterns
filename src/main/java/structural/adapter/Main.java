@@ -1,9 +1,10 @@
-package adapter;
+package structural.adapter;
 
-import adapter.adapters.CarAdapter;
-import adapter.api.Drivable;
-import adapter.model.Car;
-import adapter.model.Cart;
+import structural.adapter.adapters.CarAdapter;
+import structural.adapter.api.Drivable;
+import structural.adapter.model.Car;
+import structural.adapter.model.Cart;
+
 import java.util.List;
 
 public class Main {
