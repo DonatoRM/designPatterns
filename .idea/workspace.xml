@@ -4,19 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6457bcab-2b3b-4e87-b6ab-6d637f7e6a1a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/adapter/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/adapter/adapters/CarAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/adapter/api/Drivable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/adapter/model/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/adapter/model/Cart.java" afterDir="false" />
-    </list>
+    <list default="true" id="6457bcab-2b3b-4e87-b6ab-6d637f7e6a1a" name="Changes" comment="feat: adapter design pattern" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,6 +21,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "git@github.com:DonatoRM/designPatterns.git",
+    "accountId": "45c06561-a61c-4342-a9c2-4e95d4503ff5"
+  }
+}]]></component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 4
 }]]></component>
@@ -44,6 +38,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
@@ -73,11 +68,24 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1730895901867</updated>
-      <workItem from="1730895903025" duration="997000" />
+      <workItem from="1730895903025" duration="1448000" />
     </task>
+    <task id="LOCAL-00001" summary="feat: adapter design pattern">
+      <option name="closed" value="true" />
+      <created>1730897312409</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1730897312409</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="feat: adapter design pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: adapter design pattern" />
   </component>
 </project>
