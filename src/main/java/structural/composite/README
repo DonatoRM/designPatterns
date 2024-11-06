@@ -1,0 +1,10 @@
+--------------------------------------
+PATRÓN DE DISEÑO ESTRUCTURAL COMPOSITE
+--------------------------------------
+Este patrón de diseño se utiliza cuando necesitamos almacenar objetos en forma de Árbol.
+Se hace de la siguiente forma:
+1.- Se crea una interface en donde aparezcan los métodos comunes al árbol.
+2.- Se crean las clases que se implementan de la interface anterior.
+3.- Aquellas clases que son componentes de otras se crean sin más.
+4.- Las otras se diferencias de estas últimas en que poseen una lista como atributo privado de donde saldrán cada una
+de las ramas del árbol.

@@ -4,21 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6457bcab-2b3b-4e87-b6ab-6d637f7e6a1a" name="Changes" comment="feat: adapter design pattern 4">
-      <change afterPath="$PROJECT_DIR$/src/main/java/structural/bridge/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/structural/bridge/models/ControlRemoto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/structural/bridge/models/ControlRemotoRadio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/structural/bridge/models/ControlRemotoTV.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/structural/bridge/models/Dispositivo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/structural/bridge/models/Radio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/structural/bridge/models/Televisor.java" afterDir="false" />
+    <list default="true" id="6457bcab-2b3b-4e87-b6ab-6d637f7e6a1a" name="Changes" comment="feat: adapter bridge pattern">
+      <change afterPath="$PROJECT_DIR$/src/main/java/structural/composite/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/structural/composite/README" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/structural/composite/models/Directorio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/structural/composite/models/Fichero.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/structural/composite/models/SistemaDeFicheros.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/adapter/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/structural/adapter/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/adapter/README" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/structural/adapter/README" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/adapter/adapters/CarAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/structural/adapter/adapters/CarAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/adapter/api/Drivable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/structural/adapter/api/Drivable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/adapter/model/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/structural/adapter/model/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/adapter/model/Cart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/structural/adapter/model/Cart.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,7 +94,8 @@
       <workItem from="1730895903025" duration="2303000" />
       <workItem from="1730904468118" duration="9592000" />
       <workItem from="1730919215817" duration="1319000" />
-      <workItem from="1730920557386" duration="215000" />
+      <workItem from="1730920557386" duration="2027000" />
+      <workItem from="1730924298706" duration="1275000" />
     </task>
     <task id="LOCAL-00001" summary="feat: adapter design pattern">
       <option name="closed" value="true" />
@@ -136,7 +129,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730905020730</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="feat: adapter bridge pattern">
+      <option name="closed" value="true" />
+      <created>1730921873469</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1730921873469</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -158,6 +159,7 @@
     <MESSAGE value="feat: adapter design pattern 2" />
     <MESSAGE value="feat: adapter design pattern 3" />
     <MESSAGE value="feat: adapter design pattern 4" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: adapter design pattern 4" />
+    <MESSAGE value="feat: adapter bridge pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: adapter bridge pattern" />
   </component>
 </project>
