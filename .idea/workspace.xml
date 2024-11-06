@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6457bcab-2b3b-4e87-b6ab-6d637f7e6a1a" name="Changes" comment="feat: adapter design pattern 2">
-      <change beforePath="$PROJECT_DIR$/src/main/java/adapter/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/adapter/Main.java" afterDir="false" />
+    <list default="true" id="6457bcab-2b3b-4e87-b6ab-6d637f7e6a1a" name="Changes" comment="feat: adapter design pattern 3">
+      <change afterPath="$PROJECT_DIR$/src/main/java/adapter/README" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,12 +30,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "DonatoRM"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;DonatoRM&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;git@github.com:DonatoRM/designPatterns.git&quot;,
@@ -82,7 +83,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1730895901867</updated>
-      <workItem from="1730895903025" duration="1954000" />
+      <workItem from="1730895903025" duration="2303000" />
+      <workItem from="1730904468118" duration="516000" />
     </task>
     <task id="LOCAL-00001" summary="feat: adapter design pattern">
       <option name="closed" value="true" />
@@ -100,7 +102,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730897605437</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="feat: adapter design pattern 3">
+      <option name="closed" value="true" />
+      <created>1730897979342</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1730897979342</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -120,6 +130,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="feat: adapter design pattern" />
     <MESSAGE value="feat: adapter design pattern 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: adapter design pattern 2" />
+    <MESSAGE value="feat: adapter design pattern 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: adapter design pattern 3" />
   </component>
 </project>

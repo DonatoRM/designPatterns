@@ -1,0 +1,10 @@
+----------------------------------------------
+PATRÓN DE DISEÑO ESTRUCTURAL ADAPTER O WRAPPER
+----------------------------------------------
+Este patrón se utiliza cuando tenemos dos objetos que son de la misma familia, pero no tienen métodos en común. Si
+necesitamos manipular ambos como si fuesen de la misma familia, realizamos lo siguiente:
+1.- Se crea una interface que contendrá todos los métodos que deberían de tener en común.
+2.- Se crea un Objeto Adaptador que se implementa de los métodos de la interface anterior, y en esta Adaptador se
+agrega la clase cuyos métodos no coinciden.
+3.- Dentro de la implementación de los métodos se enviarán mensajes al componente agregado para que realicen las
+funciones que necesitamos.
