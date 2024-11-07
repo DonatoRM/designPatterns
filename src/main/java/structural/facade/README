@@ -1,0 +1,8 @@
+-----------------------------------
+PATRÓN DE DISEÑO ESTRUCTURAL FACADE
+-----------------------------------
+Este patrón de diseño se utiliza para simplificar una api compleja en otra api más sencilla para el usuario.
+Se implementa de la siguiente forma:
+1.- Creamos las clases que necesitemos.
+2.- Estas clases las utilizaremos como atributos privados de una nueva clase Facade.
+3.- Esta clase Facade tendrá una serie de métodos que actuarán directamente sobre los métodos de los componentes.
