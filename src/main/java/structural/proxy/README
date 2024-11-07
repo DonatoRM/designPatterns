@@ -1,0 +1,9 @@
+----------------------------------
+PATRÓN DE DISEÑO ESTRUCTURAL PROXY
+----------------------------------
+Este patrón de diseño controla el acceso a un objeto desde un cliente.
+Su implementación es la siguiente:
+1.- Se realiza la interface que implementará tanto al objeto a controlar como al proxy.
+2.- Se implementa el objeto a controlar
+3.- Se implementa el objeto proxy que, además de controlar que existe el objeto real, aprovecha para realizar otras
+acciones necesarias.
