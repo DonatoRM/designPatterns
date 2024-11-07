@@ -1,0 +1,13 @@
+--------------------------------------
+PATRÓN DE DISEÑO ESTRUCTURAL DECORATOR
+--------------------------------------
+Este patrón se utiliza cuando queremos añadir funcionalidades adicionales de forma dinámica a un objeto.
+Se construye de la siguiente forma:
+1.- Crearemos una interface con aquellos métodos que siempre tendrán los objetos inicialmente.
+2.- Creamos una clase implementada con dicha interface que contendrá la implementación de los métodos.
+3.- Construímos la clase Decoradora que está implementada por la interface. Esta clase tendrá, como mínimo un atributo
+ protegido que se inicializará mediante el constructor de la clase decoradora.
+4.- Los métodos también se implementarán de forma que al hacer una llamada es estos métodos, se realice la llamada
+correspondiente al método del componente definido anteriormente.
+5.- Se crearán tantas clases como modificaciones queramos hacer, extendiendo de la clase decoradora. En estas clases
+iremos añadiendo lo que necesitemos.
