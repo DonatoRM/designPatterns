@@ -1,0 +1,11 @@
+---------------------------------------------
+PATRÓN DE DISEÑO DE CREACIÓN ABSTRACT FACTORY
+---------------------------------------------
+Este patrón de diseño se utiliza para crear familias de objetos relacionados sin tener que especificar sus clases
+concretas.
+Se implementa de la siguiente forma:
+1.- Primero se crea las interfaces con los métodos que tienen que poseer en común las dos familias.
+2.- Se van creando las clases según el componente y según la familia a que pertenece, así como se van implementando
+cada uno de los métodos.
+3.- Se crea una interface de la Factoría genérica, con las acciones que realizarán cada uno de los componentes.
+4.- Se crea una clase Fábrica por cada una de las familias y serán implementadas de la interior interface.

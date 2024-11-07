@@ -4,12 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6457bcab-2b3b-4e87-b6ab-6d637f7e6a1a" name="Changes" comment="feat: flyweight design pattern">
-      <change afterPath="$PROJECT_DIR$/src/main/java/structural/proxy/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/structural/proxy/models/ProxyServicio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/structural/proxy/models/Servicio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/structural/proxy/models/ServicioReal.java" afterDir="false" />
+    <list default="true" id="6457bcab-2b3b-4e87-b6ab-6d637f7e6a1a" name="Changes" comment="feat: proxy design pattern">
+      <change afterPath="$PROJECT_DIR$/src/main/java/creation/abstractFactory/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/creation/abstractFactory/README" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/creation/abstractFactory/models/Boton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/creation/abstractFactory/models/BotonMac.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/creation/abstractFactory/models/BotonWindows.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/creation/abstractFactory/models/GUIFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/creation/abstractFactory/models/MacFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/creation/abstractFactory/models/Ventana.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/creation/abstractFactory/models/VentanaMac.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/creation/abstractFactory/models/VentanaWindows.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/creation/abstractFactory/models/WindowsFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,7 +103,10 @@
       <workItem from="1730919215817" duration="1319000" />
       <workItem from="1730920557386" duration="2027000" />
       <workItem from="1730924298706" duration="1440000" />
-      <workItem from="1730967197010" duration="12634000" />
+      <workItem from="1730967197010" duration="13672000" />
+      <workItem from="1731000799006" duration="30000" />
+      <workItem from="1731003792098" duration="145000" />
+      <workItem from="1731004117554" duration="2759000" />
     </task>
     <task id="LOCAL-00001" summary="feat: adapter design pattern">
       <option name="closed" value="true" />
@@ -169,7 +180,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730997605317</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="feat: proxy design pattern">
+      <option name="closed" value="true" />
+      <created>1730998755930</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1730998755930</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -196,6 +215,7 @@
     <MESSAGE value="feat: decorator design pattern" />
     <MESSAGE value="feat: facade design pattern" />
     <MESSAGE value="feat: flyweight design pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: flyweight design pattern" />
+    <MESSAGE value="feat: proxy design pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: proxy design pattern" />
   </component>
 </project>
