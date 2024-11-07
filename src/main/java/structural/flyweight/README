@@ -1,0 +1,10 @@
+--------------------------------------
+PATRÓN DE DISEÑO ESTRUCTURAL FLYWEIGHT
+--------------------------------------
+Este patrón de diseño se utiliza para minimizar el uso de la memoria y maximizar la eficiencia en donde existen objetos
+con características comunes.
+Se utiliza de la siguiente forma:
+1.- Se crea una interface en donde aparecerán todos aquellos métodos que sean comunes a todos los objetos.
+2.- Se crea una clase que será la implementación de la anterior interface, y en donde se almacenarán los datos que sean
+comunes.
+3.- Se crea una clase Factory cuya misión es asegurarse que los objetos de van a compartir, pero no se duplicarán.
