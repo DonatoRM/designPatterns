@@ -4,13 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6457bcab-2b3b-4e87-b6ab-6d637f7e6a1a" name="Changes" comment="feat: abstract factory design pattern">
-      <change afterPath="$PROJECT_DIR$/src/main/java/creation/builder/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/creation/builder/README" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/creation/builder/model/Casa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/creation/builder/model/CasaBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/creation/builder/model/CasaConcretaBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/creation/builder/model/Director.java" afterDir="false" />
+    <list default="true" id="6457bcab-2b3b-4e87-b6ab-6d637f7e6a1a" name="Changes" comment="feat: builder design pattern">
+      <change afterPath="$PROJECT_DIR$/src/main/java/creation/factoryMethod/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/creation/factoryMethod/models/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/creation/factoryMethod/models/Moto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/creation/factoryMethod/models/Vehicle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/creation/factoryMethod/models/VehicleFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -104,7 +103,7 @@
       <workItem from="1731000799006" duration="30000" />
       <workItem from="1731003792098" duration="145000" />
       <workItem from="1731004117554" duration="4586000" />
-      <workItem from="1731055170490" duration="5392000" />
+      <workItem from="1731055170490" duration="6265000" />
     </task>
     <task id="LOCAL-00001" summary="feat: adapter design pattern">
       <option name="closed" value="true" />
@@ -194,7 +193,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731007277760</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="feat: builder design pattern">
+      <option name="closed" value="true" />
+      <created>1731065169396</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1731065169396</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -223,6 +230,7 @@
     <MESSAGE value="feat: flyweight design pattern" />
     <MESSAGE value="feat: proxy design pattern" />
     <MESSAGE value="feat: abstract factory design pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: abstract factory design pattern" />
+    <MESSAGE value="feat: builder design pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: builder design pattern" />
   </component>
 </project>

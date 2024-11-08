@@ -1,0 +1,11 @@
+-------------------------------------------
+PATRÓN DE DISEÑO DE CREACIÓN FACTORY METHOD
+-------------------------------------------
+Este patrón de diseño se utiliza como si fuera una fuente de objetos. Según lo que le indiquemos creará un nuevo objeto
+del tipo que necesitemos.
+Se crea de la siguiente forma:
+1.- Se crea una interface en donde vendrán reflejados los métodos que tendrán en común todos los objetos que se podrán
+crear.
+2.- Se crean las clases que implementarán los métodos de la interface anteriormente creada.
+3.- Se crea la Factoría, en cuyo interior podremos seleccionar mediante un parámetro el tipo de objeto que queremos
+crear.
