@@ -1,0 +1,9 @@
+--------------------------------------
+PATRÓN DE DISEÑO DE CREACIÓN PROTOTYPE
+--------------------------------------
+Este patrón de diseño se usa cuando necesitamos clonar algún objeto porque es bastante costoso crearlo de nuevo y
+exactamente igual.
+Se crea de la siguiente forma:
+1.- Se crea una interface que se Cloneable en donde insertaremos las declaraciones de los métodos que aquellos objetos
+que deseamos clonar, junto a un método para realizar la clonación
+2.- Se crear las clases que implementan estos métodos.
