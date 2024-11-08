@@ -1,0 +1,11 @@
+--------------------------------------
+PATRÓN DE DISEÑO DE CREACIÓN SINGLETON
+--------------------------------------
+Este patrón de diseño es utilizado para cuando únicamente necesitamos tener en nuestra App una única instancia de una
+clase, como puede ser una única conexión abierta a la vez de una base de datos.
+Se crea de la siguiente forma:
+1.- Se crea una clase con una atributo estático privado en donde, una vez creada la instancia, se almacenará.
+2.- Se crea un constructor privado vacío.
+3.- Se crea un método privado estático que chequea si existe una instancia o no. Si no existe la crea y sino devuelve
+la que creada con anterioridad.
+4.- Por último se crea un método público estático que llamará al anterior y servirá de interface con el usuario.
