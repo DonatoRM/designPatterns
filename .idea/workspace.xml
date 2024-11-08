@@ -4,20 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6457bcab-2b3b-4e87-b6ab-6d637f7e6a1a" name="Changes" comment="feat: proxy design pattern">
-      <change afterPath="$PROJECT_DIR$/src/main/java/creation/abstractFactory/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/creation/abstractFactory/README" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/creation/abstractFactory/models/Boton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/creation/abstractFactory/models/BotonMac.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/creation/abstractFactory/models/BotonWindows.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/creation/abstractFactory/models/GUIFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/creation/abstractFactory/models/MacFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/creation/abstractFactory/models/Ventana.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/creation/abstractFactory/models/VentanaMac.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/creation/abstractFactory/models/VentanaWindows.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/creation/abstractFactory/models/WindowsFactory.java" afterDir="false" />
+    <list default="true" id="6457bcab-2b3b-4e87-b6ab-6d637f7e6a1a" name="Changes" comment="feat: abstract factory design pattern">
+      <change afterPath="$PROJECT_DIR$/src/main/java/creation/builder/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/creation/builder/README" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/creation/builder/model/Casa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/creation/builder/model/CasaBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/creation/builder/model/CasaConcretaBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/creation/builder/model/Director.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,6 +72,9 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Problems&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2576419&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
@@ -106,7 +103,8 @@
       <workItem from="1730967197010" duration="13672000" />
       <workItem from="1731000799006" duration="30000" />
       <workItem from="1731003792098" duration="145000" />
-      <workItem from="1731004117554" duration="2759000" />
+      <workItem from="1731004117554" duration="4586000" />
+      <workItem from="1731055170490" duration="5392000" />
     </task>
     <task id="LOCAL-00001" summary="feat: adapter design pattern">
       <option name="closed" value="true" />
@@ -188,7 +186,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730998755930</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="feat: abstract factory design pattern">
+      <option name="closed" value="true" />
+      <created>1731007277760</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1731007277760</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -216,6 +222,7 @@
     <MESSAGE value="feat: facade design pattern" />
     <MESSAGE value="feat: flyweight design pattern" />
     <MESSAGE value="feat: proxy design pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: proxy design pattern" />
+    <MESSAGE value="feat: abstract factory design pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: abstract factory design pattern" />
   </component>
 </project>

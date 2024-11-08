@@ -1,0 +1,14 @@
+------------------------------------
+PATRÓN DE DISEÑO DE CREACIÓN BUILDER
+------------------------------------
+Este patrón de diseño se utiliza cuando necesitamos crear objetos que poseen multitud de componentes. Es una forma de
+que, enviando un mensaje a una clase global se creen un sin fin de mensajes para la creación de los componentes
+necesarios para crear el objeto final.
+Se realiza de la siguiente forma:
+1.- Se crea una clase Producto, en la cual se almacenan una serie de métodos que realizarán la construcción del
+objeto en question.
+2.- Se crea una interface que contendrá los métodos de llamadas a los componentes.
+3.- Se creará la clase Builder en la que se implementarán estos métodos, y que tendrá como atributo principal el
+objeto final a crear.
+4.- Se crea la clase Director, que será la encargada de realizar las llamadas pertinentes a los métodos de la clase
+Builder para la construcción o visualización del objeto final.
