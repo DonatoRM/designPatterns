@@ -1,0 +1,10 @@
+----------------------------------------------------------
+PATRÓN DE DISEÑO DE COMPORTAMIENTO CHAIN OF RESPONSIBILITY
+----------------------------------------------------------
+Este patrón de diseño se utiliza cuando queremos desacoplar de alguna forma la emisión de un mensaje de una clase
+emisora y los potenciales objetos receptores.
+Se crea de la siguiente forma:
+1.- Creamos una clase abstracta formada por al menos dos métodos, uno abstracto cuya misión será comprobar si los
+mensajes son para el objeto que la implementa, y si es así trabajar sobre él; y el otro método, que no es abstracto,
+será la interfaz desde utilizamos para seguir la secuencia de consultas entre los objetos receptores.
+2.- Crearemos los objetos que se necesiten, y que serán los que recibirán dichos mensajes del emisor.
