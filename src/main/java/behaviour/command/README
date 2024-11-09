@@ -1,0 +1,11 @@
+------------------------------------------
+PATRÓN DE DISEÑO DE COMPORTAMIENTO COMMAND
+------------------------------------------
+Este patrón de diseño se utiliza cuando necesitamos acoplar y desacoplar acciones en los objetos (como un checkbox).
+Se construye de la siguiente forma:
+1.- Creamos una interface en la que se declararán los métodos checked y unchecked.
+2.- Ahora crearemos las clases que implementen estos checked. Como estos checked se realizarán en acciones, deberemos
+de tener un atributo que almacene el elemento que realizará esta acción, y un método con el que cargar en el atributo
+este comando o elemento. Este método será el constructor de la clase.
+3.- Crearemos los elementos o comandos con sus respectivos métodos.
+4.- Crearemos una clase que almacenará el comando, cutos métodos sean los checked y unchecked.
