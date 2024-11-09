@@ -4,10 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6457bcab-2b3b-4e87-b6ab-6d637f7e6a1a" name="Changes" comment="feat: command design pattern">
+    <list default="true" id="6457bcab-2b3b-4e87-b6ab-6d637f7e6a1a" name="Changes" comment="feat: command design pattern 2">
+      <change afterPath="$PROJECT_DIR$/src/main/java/behaviour/interpreter/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behaviour/interpreter/models/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behaviour/interpreter/models/Expression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behaviour/interpreter/models/ExpressionAge.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behaviour/interpreter/models/ExpressionAnd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behaviour/interpreter/models/ExpressionCity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behaviour/interpreter/models/ExpressionName.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behaviour/interpreter/models/ExpressionOr.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/behaviour/command/models/ApagarLuzCommand.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/behaviour/command/models/ApagarVentiladorCommand.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,7 +115,8 @@
       <workItem from="1731003792098" duration="145000" />
       <workItem from="1731004117554" duration="4586000" />
       <workItem from="1731055170490" duration="11284000" />
-      <workItem from="1731149658136" duration="7051000" />
+      <workItem from="1731149658136" duration="12551000" />
+      <workItem from="1731175066410" duration="1718000" />
     </task>
     <task id="LOCAL-00001" summary="feat: adapter design pattern">
       <option name="closed" value="true" />
@@ -247,7 +254,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731156841027</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="feat: command design pattern 2">
+      <option name="closed" value="true" />
+      <created>1731159369450</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1731159369450</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -282,6 +297,7 @@
     <MESSAGE value="feat: singleton design pattern" />
     <MESSAGE value="feat: chain os responsibility design pattern" />
     <MESSAGE value="feat: command design pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: command design pattern" />
+    <MESSAGE value="feat: command design pattern 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: command design pattern 2" />
   </component>
 </project>

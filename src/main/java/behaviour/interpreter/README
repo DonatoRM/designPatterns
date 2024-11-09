@@ -1,0 +1,11 @@
+----------------------------------------------
+PATRÓN DE DISEÑO DE COMPORTAMIENTO INTERPRETER
+----------------------------------------------
+Este patrón de diseño se utiliza cuando tenemos que evaluar expresiones de un lenguaje específico.
+Se construye de la siguiente forma:
+1.- Creamos una interface con un método que nos evaluará si interpretar o no. Este método devuelve un booleano.
+2.- Creamos la clase para almacenar los datos a evaluar.
+3.- Creamos una serie de clases por cada uno de los atributos de la clase anterior, en donde se implementará el
+método booleano de la primera clase.
+4.- Se crean tantas clases como expresiones se quieran evaluar implementadas por la interface que creamos en el punto
+uno.
