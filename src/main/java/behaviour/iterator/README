@@ -1,0 +1,12 @@
+-------------------------------------------
+PATRÓN DE DISEÑO DE COMPORTAMIENTO ITERATOR
+-------------------------------------------
+Este patrón de diseño se utiliza cuando queremos realizar recorridos de objetos compuestos de forma independiente a
+como sea su implementación.
+Se realiza de la siguiente forma:
+1.- Se crea una interface con la declaración de dos métodos: el método hasNext() y le método next(). El primero será
+utilizado para comprobar si existe o no otro objeto dentro de la colección de objetos. El segundo servirá para leer
+el objeto que estemos leyendo en un momento determinado.
+2.- Se crea una clase que creara los objetos e implementará estos métodos.
+3.- Se creará la interface colección que nos creará el puntero que iterará.
+4.- Se creará la clase que implementará la anterior interface y que se inicializará con un array de objetos.
