@@ -1,0 +1,11 @@
+-----------------------------------------
+PATRÓN DE DISEÑO DE INTERACCIÓN FEW PANES
+-----------------------------------------
+Este patrón de diseño de basa en que, en lugar de múltiples ventanas o secciones abiertas al mismo tiempo, se muestra un
+número limitado de paneles para que el usuario pueda concentrarse en la tarea principal.
+Los paneles visibles deben contener información y herramientas directamente relacionadas con la tarea actual del
+usuario.
+La interfaz debe ser simple, con un diseño limpio y claro que facilite la comprensión y el uso de las funcionalidades
+disponibles.
+Debe ser fácil para el usuario cambiar entre diferentes paneles o secciones según sea necesario, sin perder el contexto
+de la tarea principal.

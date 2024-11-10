@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6457bcab-2b3b-4e87-b6ab-6d637f7e6a1a" name="Changes" comment="feat: visitor method design pattern">
-      <change afterPath="$PROJECT_DIR$/src/main/java/interaction/window_per_task/models/EquiposWindow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/interaction/window_per_task/models/GestionProyectosApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/interaction/window_per_task/models/ProgresoWindow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/interaction/window_per_task/models/ProyectoWindow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/interaction/window_per_task/models/TareasWindow.java" afterDir="false" />
+    <list default="true" id="6457bcab-2b3b-4e87-b6ab-6d637f7e6a1a" name="Changes" comment="feat: window per task design pattern">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,6 +63,7 @@
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/www/masterd/designPatterns",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -94,8 +91,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.18034.62" />
-        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.18034.62" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-WS-241.18034.50" />
       </set>
     </attachedChunks>
   </component>
@@ -119,7 +115,8 @@
       <workItem from="1731055170490" duration="11284000" />
       <workItem from="1731149658136" duration="12551000" />
       <workItem from="1731175066410" duration="4920000" />
-      <workItem from="1731237175100" duration="18801000" />
+      <workItem from="1731237175100" duration="19909000" />
+      <workItem from="1731268996607" duration="117000" />
     </task>
     <task id="LOCAL-00001" summary="feat: adapter design pattern">
       <option name="closed" value="true" />
@@ -337,7 +334,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731266366348</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="feat: window per task design pattern">
+      <option name="closed" value="true" />
+      <created>1731268469366</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1731268469366</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -355,7 +360,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat: adapter design pattern 3" />
     <MESSAGE value="feat: adapter design pattern 4" />
     <MESSAGE value="feat: adapter bridge pattern" />
     <MESSAGE value="feat: composite bridge pattern" />
@@ -380,6 +384,7 @@
     <MESSAGE value="feat: strategy design pattern" />
     <MESSAGE value="feat: template method design pattern" />
     <MESSAGE value="feat: visitor method design pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: visitor method design pattern" />
+    <MESSAGE value="feat: window per task design pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: window per task design pattern" />
   </component>
 </project>
