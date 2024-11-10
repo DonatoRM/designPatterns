@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6457bcab-2b3b-4e87-b6ab-6d637f7e6a1a" name="Changes" comment="feat: state design pattern">
-      <change afterPath="$PROJECT_DIR$/src/main/java/behaviour/strategy/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/behaviour/strategy/models/BubbleSorting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/behaviour/strategy/models/QuickSorting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/behaviour/strategy/models/SelectionSorting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/behaviour/strategy/models/SortingContext.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/behaviour/strategy/models/SortingStrategy.java" afterDir="false" />
+    <list default="true" id="6457bcab-2b3b-4e87-b6ab-6d637f7e6a1a" name="Changes" comment="feat: strategy design pattern">
+      <change afterPath="$PROJECT_DIR$/src/main/java/behaviour/templateMethod/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behaviour/templateMethod/models/InStoreOrdering.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behaviour/templateMethod/models/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behaviour/templateMethod/models/OrderOnline.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -118,7 +116,7 @@
       <workItem from="1731055170490" duration="11284000" />
       <workItem from="1731149658136" duration="12551000" />
       <workItem from="1731175066410" duration="4920000" />
-      <workItem from="1731237175100" duration="9856000" />
+      <workItem from="1731237175100" duration="11389000" />
     </task>
     <task id="LOCAL-00001" summary="feat: adapter design pattern">
       <option name="closed" value="true" />
@@ -312,7 +310,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731255527907</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="feat: strategy design pattern">
+      <option name="closed" value="true" />
+      <created>1731257214119</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1731257214119</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -354,6 +360,7 @@
     <MESSAGE value="feat: memento design pattern" />
     <MESSAGE value="feat: observer design pattern" />
     <MESSAGE value="feat: state design pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: state design pattern" />
+    <MESSAGE value="feat: strategy design pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: strategy design pattern" />
   </component>
 </project>

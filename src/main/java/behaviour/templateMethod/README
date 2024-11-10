@@ -1,0 +1,8 @@
+--------------------------------------------------
+PATRÓN DE DISEÑO DE COMPORTAMIENTO TEMPLATE METHOD
+--------------------------------------------------
+Este patrón de diseño se utiliza cuando tenemos varios objetos que tienen métodos en común, y queremos ahorrar código.
+Se implementa de la siguiente forma:
+1.- Se crea una clase abstracta en la que se declaran los métodos que tendrán en común. Si existe algún método que es
+igual para todos los objetos, se implementa dentro de esta clase abstracta.
+2.- Se crear todas clas clases necesarios y se implementan cada uno de los métodos para estas clases.
