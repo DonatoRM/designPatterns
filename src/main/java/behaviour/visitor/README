@@ -1,0 +1,14 @@
+------------------------------------------
+PATRÓN DE DISEÑO DE COMPORTAMIENTO VISITOR
+------------------------------------------
+Este patrón de diseño permite definir nuevas operaciones sobre una jerarquía de clases sin modificar las clases sobre
+las que opera. Es útil cuando sabemos que existen operaciones que pueden cambiar con el tiempo.
+Se define de la siguiente forma:
+1.- Declaramos una interface en donde se especificarán aquellos métodos de los objetos que puedan cambiar con el tiempo.
+2.- Luego creamos las clases que implementarán estos comportamientos (que cambiarán y no queremos modificar las clases
+que los llaman).
+3.- Creamos otra interface en donde se declarará un método que incorpore un objeto implementado con la primera interfaz
+para poder trabajar con él.
+4.- Se crean las clases que implementen esta última interface.
+5.- Se crea una última clase que poseerá la colección de objetos y se permitirá iterar en esa colección para poder
+ejecutar los métodos.

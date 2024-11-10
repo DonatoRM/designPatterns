@@ -4,11 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6457bcab-2b3b-4e87-b6ab-6d637f7e6a1a" name="Changes" comment="feat: strategy design pattern">
-      <change afterPath="$PROJECT_DIR$/src/main/java/behaviour/templateMethod/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/behaviour/templateMethod/models/InStoreOrdering.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/behaviour/templateMethod/models/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/behaviour/templateMethod/models/OrderOnline.java" afterDir="false" />
+    <list default="true" id="6457bcab-2b3b-4e87-b6ab-6d637f7e6a1a" name="Changes" comment="feat: template method design pattern">
+      <change afterPath="$PROJECT_DIR$/src/main/java/behaviour/visitor/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behaviour/visitor/README" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behaviour/visitor/model/Documento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behaviour/visitor/model/Element.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behaviour/visitor/model/ExportacionVisitor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behaviour/visitor/model/Imagen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behaviour/visitor/model/ImpresionVisitor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behaviour/visitor/model/Tabla.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behaviour/visitor/model/Texto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behaviour/visitor/model/Visitor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,32 +64,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Problems&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2576419&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Problems",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2576419",
+    "settings.editor.selected.configurable": "copyright",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="behaviour.visitor.model" />
       <recent name="behaviour.state.models" />
       <recent name="behaviour.command.models" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\www\masterd\designPatterns\src\main\java\behaviour\visitor" />
       <recent name="C:\www\masterd\designPatterns\src\main\java\behaviour\interpreter" />
       <recent name="C:\www\masterd\designPatterns\src\main\java\creation\factoryMethod" />
     </key>
@@ -116,7 +124,7 @@
       <workItem from="1731055170490" duration="11284000" />
       <workItem from="1731149658136" duration="12551000" />
       <workItem from="1731175066410" duration="4920000" />
-      <workItem from="1731237175100" duration="11389000" />
+      <workItem from="1731237175100" duration="17282000" />
     </task>
     <task id="LOCAL-00001" summary="feat: adapter design pattern">
       <option name="closed" value="true" />
@@ -318,7 +326,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731257214119</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="feat: template method design pattern">
+      <option name="closed" value="true" />
+      <created>1731258477895</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1731258477895</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -336,7 +352,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat: adapter design pattern" />
     <MESSAGE value="feat: adapter design pattern 2" />
     <MESSAGE value="feat: adapter design pattern 3" />
     <MESSAGE value="feat: adapter design pattern 4" />
@@ -361,6 +376,7 @@
     <MESSAGE value="feat: observer design pattern" />
     <MESSAGE value="feat: state design pattern" />
     <MESSAGE value="feat: strategy design pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: strategy design pattern" />
+    <MESSAGE value="feat: template method design pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: template method design pattern" />
   </component>
 </project>
