@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6457bcab-2b3b-4e87-b6ab-6d637f7e6a1a" name="Changes" comment="feat: mediator design pattern">
-      <change afterPath="$PROJECT_DIR$/src/main/java/behaviour/memento/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/behaviour/memento/README" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/behaviour/memento/models/History.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/behaviour/memento/models/TextEditor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/behaviour/memento/models/TextMemento.java" afterDir="false" />
+    <list default="true" id="6457bcab-2b3b-4e87-b6ab-6d637f7e6a1a" name="Changes" comment="feat: memento design pattern">
+      <change afterPath="$PROJECT_DIR$/src/main/java/behaviour/observer/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behaviour/observer/models/NewsSystem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behaviour/observer/models/Observer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behaviour/observer/models/Subject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behaviour/observer/models/Subscriber.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -116,7 +116,7 @@
       <workItem from="1731055170490" duration="11284000" />
       <workItem from="1731149658136" duration="12551000" />
       <workItem from="1731175066410" duration="4920000" />
-      <workItem from="1731237175100" duration="4287000" />
+      <workItem from="1731237175100" duration="5308000" />
     </task>
     <task id="LOCAL-00001" summary="feat: adapter design pattern">
       <option name="closed" value="true" />
@@ -286,7 +286,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731239554964</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="feat: memento design pattern">
+      <option name="closed" value="true" />
+      <created>1731245129547</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1731245129547</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -325,6 +333,7 @@
     <MESSAGE value="feat: interpreter design pattern" />
     <MESSAGE value="feat: iterator design pattern" />
     <MESSAGE value="feat: mediator design pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: mediator design pattern" />
+    <MESSAGE value="feat: memento design pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: memento design pattern" />
   </component>
 </project>

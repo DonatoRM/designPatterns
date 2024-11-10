@@ -1,0 +1,13 @@
+-------------------------------------------
+PATRÓN DE DISEÑO DE COMPORTAMIENTO OBSERVER
+-------------------------------------------
+Este patrón de diseño define una dependencia uno es a muchos. Esto es, si cambia el estado de algo, se notificará al
+resto de objetos que necesitemos.
+Se construye de la siguiente forma:
+1.- Se construye una interface que se declarará un método que actualizará el estado de los objetos.
+2.- Se crearán los Objetos dependientes de ese estado. Este objeto tendrá la implementación de la anterior interface.
+3.- Se creará tra interface que servirá para declarar los métodos necesarios para controlar la dependencia. Esto es,
+el registro de los objetos dependientes, la eliminación de los objetos dependientes y la notificación del cambio de
+estado a dichos objetos.
+4.- Se crea la clase con la que se controlarán las variaciones del estado. Esta clase implementará los métodos de la
+anterior interface.
