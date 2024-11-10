@@ -1,0 +1,11 @@
+-------------------------------------------
+PATRÓN DE DISEÑO DE COMPORTAMIENTO MEDIATOR
+-------------------------------------------
+Este patrón de diseño se utiliza para crear un objeto que coordine la comunicación entre distintos objetos.
+Su implementación se realiza de la siguiente forma:
+1.- Creamos ina interface que declarará los métodos necesarios para configurar al objeto que coordina y para que éste
+puedo envíar los mensajes a los otros objetos que son coordinados.
+2.- Crearemos una clase que implementará de estos métodos y poseerá como atributo privado una lista de los objetos que
+va a coordinar.
+3.- Crearemos una clase abstracta que será la base de la que se extenderán los objetos que van a realizar la
+comunicación.

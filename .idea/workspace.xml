@@ -4,13 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6457bcab-2b3b-4e87-b6ab-6d637f7e6a1a" name="Changes" comment="feat: interpreter design pattern">
-      <change afterPath="$PROJECT_DIR$/src/main/java/behaviour/iterator/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/behaviour/iterator/models/Collection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/behaviour/iterator/models/Inventory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/behaviour/iterator/models/Iterator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/behaviour/iterator/models/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/behaviour/iterator/models/ProductIterator.java" afterDir="false" />
+    <list default="true" id="6457bcab-2b3b-4e87-b6ab-6d637f7e6a1a" name="Changes" comment="feat: iterator design pattern">
+      <change afterPath="$PROJECT_DIR$/src/main/java/behaviour/mediator/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behaviour/mediator/models/ChatMediator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behaviour/mediator/models/ChatMediatorImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behaviour/mediator/models/SpecificUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behaviour/mediator/models/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -116,7 +115,8 @@
       <workItem from="1731004117554" duration="4586000" />
       <workItem from="1731055170490" duration="11284000" />
       <workItem from="1731149658136" duration="12551000" />
-      <workItem from="1731175066410" duration="3648000" />
+      <workItem from="1731175066410" duration="4920000" />
+      <workItem from="1731237175100" duration="1910000" />
     </task>
     <task id="LOCAL-00001" summary="feat: adapter design pattern">
       <option name="closed" value="true" />
@@ -270,7 +270,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731177605481</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="feat: iterator design pattern">
+      <option name="closed" value="true" />
+      <created>1731179236023</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1731179236023</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -307,6 +315,7 @@
     <MESSAGE value="feat: command design pattern" />
     <MESSAGE value="feat: command design pattern 2" />
     <MESSAGE value="feat: interpreter design pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: interpreter design pattern" />
+    <MESSAGE value="feat: iterator design pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: iterator design pattern" />
   </component>
 </project>
