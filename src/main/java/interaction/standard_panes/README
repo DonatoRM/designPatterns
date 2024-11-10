@@ -1,0 +1,6 @@
+----------------------------------------------
+PATRÓN DE DISEÑO DE INTERACCIÓN STANDARD PANES
+----------------------------------------------
+Es una estrategia utilizada en el diseño de interfaces de usuario para organizar información y funciones en un formato
+de paneles estándar. Este patrón es útil para aplicaciones que requieren una estructura clara y consistente donde los
+usuarios puedan navegar y acceder a diferentes tipos de contenido de manera intuitiva.
