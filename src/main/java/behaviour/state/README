@@ -1,0 +1,12 @@
+----------------------------------------
+PATRÓN DE DISEÑO DE COMPORTAMIENTO STATE
+----------------------------------------
+Este patrón de diseño se utiliza cuando debemos tener un objeto que, por cada acción que realice, cambiará su estado,
+y con este cambio realizará una acción diferente.
+Se construye de la siguiente forma:
+1.- Creamos una interface en la que se declarará un método cuya misión será ejecutar otro método determinado según sea
+el estado del objeto.
+2.- Se crean tantas clases como estados pudiese tener el objeto. En estos estados se implementará la interface y, desde
+esta implementación se creará un objeto que se corresponderá con el estado siguiente.
+3.- Se crea una última clase que será la que implementará el objeto. Tendrá un atributo estado, y poseerá dos métodos:
+uno para cambiar el estado y otro para cambiar el controlador del nuevo estado.
