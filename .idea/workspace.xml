@@ -4,13 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6457bcab-2b3b-4e87-b6ab-6d637f7e6a1a" name="Changes" comment="feat: observer design pattern">
-      <change afterPath="$PROJECT_DIR$/src/main/java/behaviour/state/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/behaviour/state/models/DeliveringProduct.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/behaviour/state/models/State.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/behaviour/state/models/VendingMachine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/behaviour/state/models/WaitingForCoinState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/behaviour/state/models/WaitingSelectionState.java" afterDir="false" />
+    <list default="true" id="6457bcab-2b3b-4e87-b6ab-6d637f7e6a1a" name="Changes" comment="feat: state design pattern">
+      <change afterPath="$PROJECT_DIR$/src/main/java/behaviour/strategy/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behaviour/strategy/models/BubbleSorting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behaviour/strategy/models/QuickSorting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behaviour/strategy/models/SelectionSorting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behaviour/strategy/models/SortingContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behaviour/strategy/models/SortingStrategy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -118,7 +118,7 @@
       <workItem from="1731055170490" duration="11284000" />
       <workItem from="1731149658136" duration="12551000" />
       <workItem from="1731175066410" duration="4920000" />
-      <workItem from="1731237175100" duration="8248000" />
+      <workItem from="1731237175100" duration="9856000" />
     </task>
     <task id="LOCAL-00001" summary="feat: adapter design pattern">
       <option name="closed" value="true" />
@@ -304,7 +304,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731246663881</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="feat: state design pattern">
+      <option name="closed" value="true" />
+      <created>1731255527907</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1731255527907</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -345,6 +353,7 @@
     <MESSAGE value="feat: mediator design pattern" />
     <MESSAGE value="feat: memento design pattern" />
     <MESSAGE value="feat: observer design pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: observer design pattern" />
+    <MESSAGE value="feat: state design pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: state design pattern" />
   </component>
 </project>

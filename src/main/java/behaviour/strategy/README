@@ -1,0 +1,11 @@
+-------------------------------------------
+PATRÓN DE DISEÑO DE COMPORTAMIENTO STRATEGY
+-------------------------------------------
+Este patrón de diseño se utiliza cuando, según una estrategia u otra, resolveremos un problema de forma distinta en
+tiempo de ejecución.
+Se resuelve de la siguiente manera:
+1.- Se crea una interface con la declaración del método que recogerá la acción a realizar según sea la estrategia
+elegida.
+2.- Se crean las diversas estrategias que se utilizarán, implementándose el anterior método que compone la interface.
+3.- Se crea una nueva clase con la que se indicará el contexto que se usará. Tendrá un método para añadir la estrategia,
+y otro método que será el que ejecutará la acción definida según la estrategia.
