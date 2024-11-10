@@ -1,0 +1,14 @@
+------------------------------------------
+PATRÓN DE DISEÑO DE COMPORTAMIENTO MEMENTO
+------------------------------------------
+Este patrón de diseño se usa cuando necesitamos llevar un historial del estado de los objetos, y que en algún momento
+determinado tendremos que volver al estado anterior.
+Se construye de la siguiente forma:
+1.- Se construye una clase que se encargará de almacenar los estados de otro objeto en un momento determinado (será
+como la foto finish).
+2.- Tendremos la clase que nos interesará almacenar su estado, y por ello deberá tener dos métodos: uno de guardar el
+estado, y otro de restaurar el estado. Ambos métodos crearán objetos de la clase anterior con los datos de la
+instantánea.
+3.- Por último, tendremos otra clase que llevará el historial del objeto. Esta clase poseerá una lista en la que se
+almacenará cada uno de los estados, que podrán ser leídos indicando un índice que se corresponderá con el índice de
+copia de seguridad del estado.
