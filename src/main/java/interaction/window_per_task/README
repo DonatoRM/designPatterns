@@ -1,0 +1,7 @@
+-----------------------------------------------
+PATRÓN DE DISEÑO DE INTERACCIÓN WINDOW PER TASK
+-----------------------------------------------
+Este patrón de diseño sugiere que cada tarea o conjunto de tareas relacionadas debe de tener su propia ventana
+independiente en lugar de agrupar todas las tareas en una única ventana. Esto ayuda a organizar mejor las tareas del
+usuario, simplifica la interfaz y mejora la usabilidad.
+En el siguiente ejemplo usamos un JMenuItem de un JMenu para organizar las tareas.

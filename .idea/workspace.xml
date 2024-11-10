@@ -4,18 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6457bcab-2b3b-4e87-b6ab-6d637f7e6a1a" name="Changes" comment="feat: template method design pattern">
-      <change afterPath="$PROJECT_DIR$/src/main/java/behaviour/visitor/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/behaviour/visitor/README" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/behaviour/visitor/model/Documento.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/behaviour/visitor/model/Element.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/behaviour/visitor/model/ExportacionVisitor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/behaviour/visitor/model/Imagen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/behaviour/visitor/model/ImpresionVisitor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/behaviour/visitor/model/Tabla.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/behaviour/visitor/model/Texto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/behaviour/visitor/model/Visitor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="6457bcab-2b3b-4e87-b6ab-6d637f7e6a1a" name="Changes" comment="feat: visitor method design pattern">
+      <change afterPath="$PROJECT_DIR$/src/main/java/interaction/window_per_task/models/EquiposWindow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interaction/window_per_task/models/GestionProyectosApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interaction/window_per_task/models/ProgresoWindow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interaction/window_per_task/models/ProyectoWindow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interaction/window_per_task/models/TareasWindow.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,6 +60,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.GestionProyectosApp.executor": "Run",
     "Application.Main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -124,7 +119,7 @@
       <workItem from="1731055170490" duration="11284000" />
       <workItem from="1731149658136" duration="12551000" />
       <workItem from="1731175066410" duration="4920000" />
-      <workItem from="1731237175100" duration="17282000" />
+      <workItem from="1731237175100" duration="18801000" />
     </task>
     <task id="LOCAL-00001" summary="feat: adapter design pattern">
       <option name="closed" value="true" />
@@ -334,7 +329,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731258477895</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="feat: visitor method design pattern">
+      <option name="closed" value="true" />
+      <created>1731266366348</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1731266366348</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -352,7 +355,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat: adapter design pattern 2" />
     <MESSAGE value="feat: adapter design pattern 3" />
     <MESSAGE value="feat: adapter design pattern 4" />
     <MESSAGE value="feat: adapter bridge pattern" />
@@ -377,6 +379,7 @@
     <MESSAGE value="feat: state design pattern" />
     <MESSAGE value="feat: strategy design pattern" />
     <MESSAGE value="feat: template method design pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: template method design pattern" />
+    <MESSAGE value="feat: visitor method design pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: visitor method design pattern" />
   </component>
 </project>
