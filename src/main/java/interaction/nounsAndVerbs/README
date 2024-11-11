@@ -1,0 +1,11 @@
+-----------------------------------------------
+PATRÓN DE DISEÑO DE INTERACCIÓN NOUNS AND VERBS
+-----------------------------------------------
+En este patrón de diseño representamos las acciones (verbos) que el usuario puede realizar sobre los objetos
+(sustantivos) del sistema de manera coherente y directa.
+Los sustantivos representan los objetos o entidades del sistema con los que el usuario interactúa (e.g., documentos,
+usuarios, productos).
+Los verbos representan las acciones que se pueden realizar sobre esos objetos (e.g., crear, editar, eliminar).
+Las acciones disponibles para cada tipo de objeto se presentan de manera consistente, utilizando la misma terminología
+y estructuras visuales.
+Simplifica la interfaz de usuario al organizar las acciones de manera lógica y predecible.

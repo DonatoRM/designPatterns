@@ -4,7 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6457bcab-2b3b-4e87-b6ab-6d637f7e6a1a" name="Changes" comment="feat: window per task design pattern">
+    <list default="true" id="6457bcab-2b3b-4e87-b6ab-6d637f7e6a1a" name="Changes" comment="feat: standard panes design pattern">
+      <change afterPath="$PROJECT_DIR$/src/main/java/interaction/nounsAndVerbs/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interaction/nounsAndVerbs/README" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interaction/nounsAndVerbs/eslint.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interaction/nounsAndVerbs/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interaction/nounsAndVerbs/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interaction/nounsAndVerbs/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interaction/nounsAndVerbs/src/App.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interaction/nounsAndVerbs/src/App.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interaction/nounsAndVerbs/src/components/Documento.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interaction/nounsAndVerbs/src/components/ListaDocumentos.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interaction/nounsAndVerbs/src/components/MenuPrincipal.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interaction/nounsAndVerbs/src/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interaction/nounsAndVerbs/src/main.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interaction/nounsAndVerbs/vite.config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,33 +63,36 @@
   &quot;associatedIndex&quot;: 4
 }</component>
   <component name="ProjectId" id="2oTaDn71WEC69lsOdkxY91XGDBM" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.GestionProyectosApp.executor": "Run",
-    "Application.Main.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/www/masterd/designPatterns",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Problems",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2576419",
-    "settings.editor.selected.configurable": "copyright",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Application.GestionProyectosApp.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/www/masterd/designPatterns&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Problems&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2576419&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;copyright&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="behaviour.visitor.model" />
@@ -91,7 +108,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-WS-241.18034.50" />
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.18034.62" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.18034.62" />
       </set>
     </attachedChunks>
   </component>
@@ -117,6 +135,8 @@
       <workItem from="1731175066410" duration="4920000" />
       <workItem from="1731237175100" duration="19909000" />
       <workItem from="1731268996607" duration="117000" />
+      <workItem from="1731271615385" duration="2702000" />
+      <workItem from="1731310900881" duration="1145000" />
     </task>
     <task id="LOCAL-00001" summary="feat: adapter design pattern">
       <option name="closed" value="true" />
@@ -342,7 +362,23 @@
       <option name="project" value="LOCAL" />
       <updated>1731268469366</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="feat: few panes design pattern">
+      <option name="closed" value="true" />
+      <created>1731271955333</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1731271955333</updated>
+    </task>
+    <task id="LOCAL-00030" summary="feat: standard panes design pattern">
+      <option name="closed" value="true" />
+      <created>1731274152610</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1731274152610</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -360,8 +396,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat: adapter design pattern 4" />
-    <MESSAGE value="feat: adapter bridge pattern" />
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="feat: composite bridge pattern" />
     <MESSAGE value="feat: decorator design pattern" />
     <MESSAGE value="feat: facade design pattern" />
@@ -385,6 +420,8 @@
     <MESSAGE value="feat: template method design pattern" />
     <MESSAGE value="feat: visitor method design pattern" />
     <MESSAGE value="feat: window per task design pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: window per task design pattern" />
+    <MESSAGE value="feat: few panes design pattern" />
+    <MESSAGE value="feat: standard panes design pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: standard panes design pattern" />
   </component>
 </project>
