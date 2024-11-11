@@ -1,0 +1,12 @@
+------------------------------------------
+PATRÓN DE DISEÑO DE INTERACCIÓN SHORT MENU
+------------------------------------------
+Este patrón de diseño se centra en ofrecer al usuario un número limitado de opciones claras y directas, facilitando la
+toma de decisiones rápidas y efectivas. Este patrón es especialmente útil en interfaces de usuario donde se busca
+simplicidad, eficiencia y minimizar el desbordamiento de opciones, evitando la sobrecarga cognitiva para el usuario.
+Presenta un pequeño conjunto de opciones principales, generalmente entre 3 y 7, para evitar que el usuario se sienta
+abrumado.
+Cada opción debe estar claramente etiquetada y ser fácilmente comprensible.
+Las opciones se presentan de manera prominente para que el usuario pueda acceder a ellas rápidamente sin tener que
+navegar por menús extensos.
+Si se necesitan más opciones, se pueden agrupar en submenús, manteniendo el menú principal corto y manejable.
