@@ -4,23 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6457bcab-2b3b-4e87-b6ab-6d637f7e6a1a" name="Changes" comment="feat: nouns and verbs design pattern">
-      <change afterPath="$PROJECT_DIR$/src/main/java/interaction/short_menu/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/interaction/short_menu/eslint.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/interaction/short_menu/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/interaction/short_menu/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/interaction/short_menu/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/interaction/short_menu/src/App.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/interaction/short_menu/src/App.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/interaction/short_menu/src/components/Configuracion.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/interaction/short_menu/src/components/MenuPrincipal.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/interaction/short_menu/src/components/PagarFacturas.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/interaction/short_menu/src/components/TransferirDinero.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/interaction/short_menu/src/components/VerSaldo.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/interaction/short_menu/src/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/interaction/short_menu/src/main.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/interaction/short_menu/vite.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="6457bcab-2b3b-4e87-b6ab-6d637f7e6a1a" name="Changes" comment="feat: short menu design pattern">
+      <change afterPath="$PROJECT_DIR$/README" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -137,7 +122,7 @@
       <workItem from="1731237175100" duration="19909000" />
       <workItem from="1731268996607" duration="117000" />
       <workItem from="1731271615385" duration="2702000" />
-      <workItem from="1731310900881" duration="1926000" />
+      <workItem from="1731310900881" duration="2302000" />
     </task>
     <task id="LOCAL-00001" summary="feat: adapter design pattern">
       <option name="closed" value="true" />
@@ -387,7 +372,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731312208302</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="feat: short menu design pattern">
+      <option name="closed" value="true" />
+      <created>1731313091065</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1731313091065</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -406,7 +399,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="feat: decorator design pattern" />
     <MESSAGE value="feat: facade design pattern" />
     <MESSAGE value="feat: flyweight design pattern" />
     <MESSAGE value="feat: proxy design pattern" />
@@ -431,6 +423,7 @@
     <MESSAGE value="feat: few panes design pattern" />
     <MESSAGE value="feat: standard panes design pattern" />
     <MESSAGE value="feat: nouns and verbs design pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: nouns and verbs design pattern" />
+    <MESSAGE value="feat: short menu design pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: short menu design pattern" />
   </component>
 </project>
